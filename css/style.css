@@ -1,0 +1,79 @@
+.btn {
+    color: #cd0f0f;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+    background-color: white;
+    color: #cd0f0f;
+}
+
+.btn:hover {
+    background-color: #cd0f0f;
+    color: white;
+}
+
+.btn:active {
+    background-color: white;
+    color: #cd0f0f;
+    box-shadow: none;
+}
+
+body {
+    font-family: 'Special Elite', serif;
+    font-size: 19px;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    background-color: black;
+}
+
+#intro {
+    font-size: 60px;
+}
+
+#time {
+	font-size: 50px;
+	color: #cd0f0f;
+}
+
+#button {
+    padding: 3px;
+    margin: 5px;
+}
+
+footer {
+    font-size: 12px;
+}
+
+#coffins {
+    font-size: 50px;
+}
+
+#coffins button {
+    color: black;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:0; }
+    50% { opacity:0; }
+    100% { opacity:0; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:0; }
+    50% { opacity:0; }
+    100% { opacity:0; }
+}
+@-moz-keyframes blink{
+    0% { opacity:0; }
+    50% { opacity:0; }
+    100% { opacity:0; }
+}
